@@ -15,7 +15,7 @@ For each exercise, you should:
 
 - Basic prompt: "Write a function to validate a phone number"
 - Better prompt: "Create a Python function that validates international phone numbers with country codes"
-- Best prompt: "Write a Python function named validate_phone_number that takes a string parameter and returns true if the number matches E.164 format (e.g. +12345678900). The function should:
+- One-shot prompt: "Write a Python function named validate_phone_number that takes a string parameter and returns true if the number matches E.164 format (e.g. +12345678900). The function should:
   - Validate string starts with + symbol
   - Ensure 1-15 digits after the + symbol
   - Handle null/empty inputs 
@@ -76,6 +76,9 @@ Start with a piece of code that has a bug and write prompts that:
 - The impact of different prompt structures on results
 - How to effectively communicate technical requirements
 
+
+### Additional Resources
+- [Example Prompts for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/example-use-cases/example-prompts-for-copilot-chat)
 
 
 
