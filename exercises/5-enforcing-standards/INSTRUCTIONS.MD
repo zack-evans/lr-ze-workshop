@@ -10,23 +10,15 @@ The `copilot-instructions.md` file provides a powerful set of configurations tha
 - **Enhance Developer Experience**: Customize the behavior of Copilot Chat to suit individual and team preferences, making it a more effective tool for different development scenarios.
 - **Improve Code Quality**: By setting specific rules and instructions, teams can ensure that the AI suggestions align with their quality standards, leading to more reliable and maintainable code.
 
-### Customizing Copilot Chat in VS Code
+### Customizing Copilot Chat
 
 VS Code provides extensive documentation on how to customize GitHub Copilot Chat through the `copilot-instructions.md` file. Key features include:
 
-- **Instruction Sets**: Define specific instructions for Copilot Chat to follow, such as preferred coding styles, naming conventions, and error handling practices.
+- **Instruction Sets**: Define specific instructions for Copilot Chat to follow, such as preferred coding styles, naming conventions, and error handling practices. This includes code generation, test generation and code review instructions.
 - **Contextual Customization**: Tailor the AI's behavior based on the context of the code, ensuring that suggestions are relevant and accurate.
-- **Team-wide Configurations**: Share the `copilot-instructions.md` file across the team to ensure consistency in code suggestions and practices.
+- **Team-wide Configurations**: Store the `copilot-instructions.md` file in the default branch to ensure consistency in code suggestions and practices for future dev.
 
 For detailed instructions on how to set up and use `copilot-instructions.md` in VS Code, refer to [VS Code's documentation](https://code.visualstudio.com/docs/copilot/copilot-customization).
-
-### Complementing VS Code with GitHub's Documentation
-
-In addition to the customization options available in VS Code, GitHub's documentation provides further insights and best practices for leveraging Copilot Chat effectively. This includes:
-
-- **Comprehensive Guides**: Detailed guides on setting up and configuring Copilot Chat across different environments.
-- **Best Practices**: Recommendations on how to use Copilot Chat to improve team collaboration and code quality.
-- **Advanced Configurations**: Tips for advanced users to fine-tune the AI's behavior and integrate it seamlessly into their development workflows.
 
 Explore more about customizing GitHub Copilot Chat in GitHub's documentation [here](https://docs.github.com/en/copilot).
 
