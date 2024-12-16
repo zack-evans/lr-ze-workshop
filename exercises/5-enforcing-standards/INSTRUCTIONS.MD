@@ -28,6 +28,7 @@ Explore more about customizing GitHub Copilot Chat in GitHub's documentation [he
 2. **Regularly Update Instructions**: Keep the instructions up-to-date to reflect any changes in your coding practices or team requirements.
 3. **Collaborate with the Team**: Involve the entire development team in defining and refining the instructions to ensure that they meet everyone's needs and preferences.
 4. **Monitor and Adjust**: Continuously monitor the effectiveness of the instructions and make adjustments as necessary to improve the quality of code suggestions.
+5. **Don't include external references**: `copilot-instructions.md` is unable to reference other resources for its rule definitions.
 
 # 🤖 Controlling Interactions with GitHub Copilot Chat
 
