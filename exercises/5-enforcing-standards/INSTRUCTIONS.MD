@@ -10,7 +10,7 @@ The `copilot-instructions.md` file provides a powerful set of configurations tha
 - **Enhance Developer Experience**: Customize the behavior of Copilot Chat to suit individual and team preferences, making it a more effective tool for different development scenarios.
 - **Improve Code Quality**: By setting specific rules and instructions, teams can ensure that the AI suggestions align with their quality standards, leading to more reliable and maintainable code.
 
-### Customizing Copilot Chat
+### Setting Copilot projects specific to your project
 
 VS Code provides extensive documentation on how to customize GitHub Copilot Chat through the `copilot-instructions.md` file. Key features include:
 
