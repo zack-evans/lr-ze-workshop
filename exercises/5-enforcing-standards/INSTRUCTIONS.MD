@@ -1,6 +1,13 @@
-## Controlling Interactions with GitHub Copilot Chat
+## Why You Should Be Using Custom Interactions with GitHub Copilot Chat
 
-GitHub Copilot Chat allows developers to interact with AI-powered coding suggestions directly within their development environment. By using the `copilot-instructions.md` file, accessible in both VS Code and Visual Studio, teams can customize and standardize these interactions to fit their specific workflows and coding standards.
+GitHub Copilot has always been receptive to user feedback and has allowed users to guide its responses based on priorities and clarifications they give Copilot at the start or along the way. However this has been a manual process and leaves room for better consistency.
+
+Moving forward you should avoid this by defining your standards once in the `.github/copilot-instructions.md` file. This file will contain your default guidelines for Copilot Chat interactions, as well as more specific instructions that Copilot Chat must consider when generating responses. When a repository that contains the `copilot-instructions.md` is open in  VS Code and Visual Studio, these guidelines will be recognized and enforced. This is important because not only can you standardize Copilot Chat interactions but yourself, but also for all Copilot users of a repository.
+
+We'll be covering how you can use `copilot-instructions.md` to:
+- define a set of priorities and guardrails teams appliccable to your application, workflows, and coding standards
+- standardize these Copilot Chat configurations for other contributors to the repository
+
 
 ### Why Use `copilot-instructions.md`?
 
