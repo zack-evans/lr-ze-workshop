@@ -2,10 +2,11 @@
 
 ## Overview
 
-This series of exercises will focus on the basics of GitHub Copilot Chat and understanding:
+This series of exercises will learn the basics of GitHub Copilot Chat and understand:
 - Chat's communication patterns
 - Documenting code
-- 
+- Generating unit tests
+- Code review practices
 
 ## Exercises
 

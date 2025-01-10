@@ -1,10 +1,5 @@
 # lr-ze-workshop
 
-##T0-DO:
-- BREAK DOWN THE WHY OF COMPLETING THESE EXERCISES. PRIME USERS WITH EXPECTATIONS OF WHAT THEY WILL BE ABLE TO ACCOMPLISH ONCE DONE. 
-- 3 STAGES: TELL THEM WHAT YOURE ABOUT TO TELL THEM, TELL THEM, TELL WHAT YOU TOLD THEM
-- Add use cases for strategies and ideas
-
 ## Overview
 Copilot is an easy to use tool and effective in helping developers be more productive, however understanding how to use Copilot most effectively is going to provide the best possible experience. 
 
