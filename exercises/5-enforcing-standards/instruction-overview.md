@@ -47,7 +47,7 @@ Things to avoid:
 So what does good look like when writing instructions?
 
 #### Keep it simple and short
-Each entry in `copilot-instructions.md` should **introduce clear value** rather than unnecessary context. You should keep the `copilot-instructions.md` as **short** and **concise** as possible. The instructions you define will be enforced on every Copilot Chat interaction. So the lengthier the amount of instructions, the less context available to Copilot for the code or question in scope.
+Each entry in `copilot-instructions.md` should **introduce clear value** rather than unnecessary context. You should keep the `copilot-instructions.md` as **specific** and **concise** as possible. The instructions you define will be enforced on every Copilot Chat interaction. So the lengthier the amount of instructions, the less context available to Copilot for the code or question in scope.
 
 Below are examples that demonstrate how specificity and concise instructions will help guide Copilot to produce code according to your standards.
 
