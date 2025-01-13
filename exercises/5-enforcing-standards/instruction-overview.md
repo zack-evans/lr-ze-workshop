@@ -86,7 +86,7 @@ Below are examples that demonstrate how specificity and concise instructions wil
 * Use camelCase for variable and function names
 * Include JSDoc comments for all functions
 * Use const for variables that won't be reassigned
-
+```
 2. Open your repository in VS Code and ask Copilot Chat to create a simple utility function. Compare the responses with and without the instructions file:
  - First, rename or temporarily remove the copilot-instructions.md file and ask:
   - `Create a function that formats a phone number into (XXX) XXX-XXXX format`
