@@ -1,38 +1,87 @@
+### 🤖 Understanding Context in GitHub Copilot Chat
 
-## Overview
+GitHub Copilot Chat becomes more powerful when it understands the full context of your development environment. After reading this document, you'll understand:
+- How Copilot uses different types of context to assist you
+- Which specialized agents are available and their purposes
+- How to effectively use slash commands
+- Best practices for providing context in your queries
 
-Context is crucial when working with GitHub Copilot Chat as it helps the AI provide more accurate and relevant responses. The system uses various forms of context to understand your codebase and requirements better:
+### 🎯 How Context Powers Copilot Chat
 
-### Types of Context
-- Active editor content
-- Selected code blocks
-- Workspace files
-- Terminal outputs
-- System information
-- Git history
+Context is the foundation of meaningful interactions with Copilot Chat. The system actively uses multiple context sources:
 
-### Chat Participants (Agents)
-Copilot Chat provides specialized agents accessed using the `@` symbol:
+**Workspace Context**
+- Active editor content - What you're currently viewing or editing
+- Selected code blocks - Specific code you've highlighted
+- Workspace files - Your project's file structure and contents
 
-- `@workspace` - Understands your codebase and workspace context
-- `@vscode` - Specializes in VS Code functionality
-- `@terminal` - Helps with terminal commands
-- `@github` - Provides GitHub-specific assistance
+**Environmental Context**
+- Terminal outputs - Command results and logs
+- System information - Your development environment
+- Git history - Version control information
 
-### Slash Commands
-Each agent supports specific slash commands for common tasks:
+### Working with Specialized Agents
 
-- `/explain` - Analyzes and explains code with full context
-- `/tests` - Generates tests using related test files as context
-- `/fix` - Uses errors and symbols as context for fixes
-- `/new` - Creates new code components
+Understanding how to leverage specialized agents is crucial for manipulating context effectively in Copilot Chat. Each agent is designed to be used for different use cases depending on your task and environment. These agents will ultimately allowi you to:
+- Target precise areas of your codebase
+- Access environment-specific features
+- Get contextually relevant suggestions
+- Streamline common development tasks
 
-## Best Practices
-1. Always select relevant code when asking for explanations
-2. Use file attachments for broader context
-3. Specify the appropriate agent for your query
-4. Utilize slash commands for specialized tasks
-5. Include error messages or outputs when debugging
+**Available Agents:**
+- `@workspace` - Your codebase expert
+  - Understands project structure
+  - Provides context-aware code suggestions
+  
+- `@vscode` - Your IDE assistant
+  - Helps with VS Code features
+  - Explains editor functionality
+  
+- `@terminal` - Your command-line guide
+  - Suggests terminal commands
+  - Explains command outputs
+  
+- `@github` - Your GitHub specialist
+  - Assists with repository tasks
+  - Provides GitHub-specific guidance
+
+### Power Commands for Enhanced Interaction
+
+Each agent supports specialized commands to streamline common tasks:
+
+**Core Commands:**
+- `/explain` - Deep dive into code analysis
+  - Uses full context for comprehensive explanations
+  - Perfect for understanding complex code blocks
+
+- `/tests` - Test generation assistant
+  - References existing test patterns
+  - Maintains testing consistency
+
+- `/fix` - Intelligent problem solver
+  - Analyzes errors in context
+  - Proposes targeted solutions
+
+- `/new` - Code creation helper
+  - Scaffolds new components
+  - Follows project patterns
+
+### 🎓 Key Takeaways
+
+✅ **Maximize Context Quality**
+- Always highlight relevant code when seeking explanations
+- Include file attachments for broader context understanding
+
+✅ **Use Specialized Help**
+- Choose the right agent for your specific needs
+- Leverage slash commands for focused assistance
+
+✅ **Provide Clear Information**
+- Include error messages when debugging
+- Specify framework versions when relevant
+
+---
+*Next Steps: Practice using different types of context in the following exercises to see how they enhance Copilot's responses!*
 
 # 🤖 Understanding Context in GitHub Copilot Chat
 
