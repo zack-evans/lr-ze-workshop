@@ -56,12 +56,16 @@ Each agent supports specific slash commands for common tasks:
 
 <details>
 <summary>Solution</summary>
+
+``` markdown
+
 // Commands to try:
 // @workspace /explain - Understand the processData implementation
 // @workspace /fix - Get suggestions for error handling
 // @workspace /new - Create data validation helpers
 
 // Notice which files Copilot references in its responses
+```
 </details>
 
 ### 2. 🛠️ Code Analysis and Generation
@@ -85,6 +89,8 @@ Each agent supports specific slash commands for common tasks:
 <details>
 <summary>Solution</summary>
 
+```javascript
+
 // Select processData from [services.js](exercises/3-utilizing-context/exercise-3/src/js/services.js):
 
 export const processData = (data) => {
@@ -92,13 +98,8 @@ export const processData = (data) => {
         id: data.id,
         name: data.name
     };
-};
-
-// Commands to try:
-// @workspace /explain - Understand the processData implementation
-// @workspace /fix - Get suggestions for error handling
-// @workspace /new - Create data validation helpers
-
+}
+```
 </details>
 
 ### 3. 🎯 Standards Enforcement with Context
@@ -121,6 +122,8 @@ export const processData = (data) => {
 
 <details>
 <summary>Solution</summary>
+
+``` markdown
 // First reference [coding-standards.js](exercises/3-utilizing-context/exercise-3/src/standards/coding-standards.js)
 
 // Then examine [utils.js](exercises/3-utilizing-context/exercise-3/src/js/utils.js) functions
@@ -128,6 +131,7 @@ export const processData = (data) => {
 // Example chat:
 // @workspace check if isValidString() in utils.js follows our coding standards
 // @workspace suggest improvements for formatDate() based on standards
+```
 </details>
 
 ### 4. 🔌 Service Integration Context
@@ -151,6 +155,9 @@ export const processData = (data) => {
 
 <details>
 <summary>Solution</summary>
+
+```javascript
+
 // First examine [services.js](exercises/3-utilizing-context/exercise-3/src/js/services.js)
 
 // Then look at [main.js](exercises/3-utilizing-context/exercise-3/src/js/main.js) implementation
@@ -159,6 +166,7 @@ export const processData = (data) => {
 // @workspace how can I use fetchData service in handleSubmit function?
 // @workspace what error handling should I add for the service calls?
 
+```
 </details>
 
 ### 5. 🐛 Terminal Error Resolution
@@ -181,6 +189,8 @@ export const processData = (data) => {
 
 <details>
 <summary>Solution</summary>
+
+```javascript
 // Run tests using: npm test
 
 // When you see errors in [main.test.js](exercises/3-utilizing-context/exercise-3/src/tests/main.test.js)
@@ -190,6 +200,9 @@ export const processData = (data) => {
 // Example chat:
 // @workspace fix test failures in main.test.js
 // @workspace suggest better test coverage for utils.js
+
+```
+</details>
 
 ### 🎓 Key Takeaways
 
