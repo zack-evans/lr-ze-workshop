@@ -1,3 +1,7 @@
+//This exercise will ideally be performed using Copilot Chat, but you can also use the Copilot Code extension to get suggestions for each exercise.
+//To get suggestions, highlight the code snippet and open Copilot Chat or use the Copilot Code extension to get suggestions for each exercise.
+
+
 // Exercise 1: Function Implementation
 // TODO: Try different prompts for implementing phone number validation
 function validatePhoneNumber(phoneNumber) {
