@@ -83,7 +83,7 @@ Each agent supports specialized commands to streamline common tasks:
 ---
 *Next Steps: Practice using different types of context in the following exercises to see how they enhance Copilot's responses!*
 
-# 🤖 Understanding Context in GitHub Copilot Chat
+# Exercises
 
 ### 1. 🔍 Exploring Workspace Context
 
